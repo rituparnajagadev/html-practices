@@ -1,0 +1,12 @@
+body {
+    background-color: blue;
+}
+.container {
+    background-color: #999; height: 90vh; padding: left:15px; padding:right;
+}
+.card {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

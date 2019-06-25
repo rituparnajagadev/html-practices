@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script type="text/javascript">
+    var a = 100;
+    function myfun1()
+    {
+        var x = 200;
+    }
+    function myfun2()
+    {
+        var y = 522;
+    }
+    function myblue()
+    {
+        document.bgColor="#0000ff"
+    }
+    function alertmsg()
+    {
+        alert ("welcome to giet");
+        alert ("welcome to odisha");
+    }
+    function mysysdate()
+    {
+        document.getElementById("dt").innerHTML=Date();
+
+    }
+    function pageload()
+    {
+        alert ("page load successfully");
+    }
+    function imageload()
+    {
+        alert("image loaded successfully");
+    }
+    function mouseover()
+    {
+        alert ("welcome to giet");
+    }
+    function mouseout()
+    {
+        alert ("try again");
+
+    }
+    </script>
+</head>
+<body onload="pageload()">
+    <p>
+        click the button to see the web page
+    </p>
+    <button onclick="myblue()">click_button</button>
+    <p> click the button to see the alert msg</p>
+    <button onclick="alertmsg()">click_alert</button>
+    <p id="dt">double click on date</p>
+    <button ondblclick="mysysdate()">click_date</button>
+
+    <p>page load successfully...</p>
+    <img src="IMG-20181022-WA0000.jpg" height="200px" width="200px" onload="imageload()"/>
+    <div style='color:brown; height:111px;width: 100px; font-size: 200px;' onmouseover="mouseover()" onmouseout="mouseout()"> naresh it</div>
+    
+
+</body>
+</html>
